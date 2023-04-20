@@ -1,0 +1,48 @@
+/* box model
+4 atributos de la caja
+
+desde ADENTRO hacia FUERA:
+
+1. CONTENT
+2. PADDING (RELLENO)
+3. BORDER
+4. MARGIN
+
+
+*/
+
+
+.first {
+    color: red;
+    font-weight: bold;
+    background-color: rgb(245, 162, 162);
+    /*padding*/
+    
+    /*padding: 80px*/
+
+    /* se agrando el espacio de relleno que tiene la caja . A cada lado de la caja se le agregan 80px de relleno*/
+   
+   /* padding-left: 110px;
+    padding-top: 40px;
+    padding-bottom: 20px;*/
+
+    /*para no escribir tanto: padding  arribaabajo izqder O SINO padding top right bottom left */
+   
+
+    padding: 40px 150px;
+
+    /* border
+    tamanio, estilo, color
+    */
+    border: red;
+    border-left: 10px  dashed ;
+    border-top : 5px dotted  ;
+
+    /*margin
+    como el padding, en sentido horario escribo 4, aaibaabajo y izqder si escrido 2, uniformemente de todos ladosmsi escribo 1*/
+
+margin: 10px 80px 50px 70px;
+
+}
+
+.second {font-family: 'Fira Code', monospace;}
